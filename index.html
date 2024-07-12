@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Deals</title>
+    <link rel="stylesheet" href="html/CSS/Style.css">
+</head>
+<body>
+<div class="top-bar">
+    <h1 class="title">Mein Web-Shop</h1>
+    <div class="container">
+        <a href="index.html" class="btn" data-text="Klick mich :)">Main-Page</a>
+        <a href="html/newsletter/newsletter.html" class="btn" data-text="Klick mich :)">Newsletter</a>
+        <a href="html/Warenkorb/Warenkorb.html" class="btn" data-text="Klick mich :)">Warenkorb</a>
+
+        <div class="dropdown">
+            <button class="btn_NoText" >Produkte &#11015;</button>
+            <div class="dropdown-content">
+                <a href="html/handy/Handys_Verus.html">Handys</a>
+                <a href="html/tastaturen/Tastaturen_Versus.html">Tastaturen</a>
+                <a href="html/headsets/Headsets_Versus.html">Headsets</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<h1 id="Seller_Titel">Best-Seller</h1>
+
+<div id="product-container">
+    <div class="best_seller">
+        <img src="html/images/Iphones/Iphone_13_1.jpg" style="width:100%">
+        <h2>Iphone 13</h2>
+        <h2>999 Fr.-</h2>
+        <a href="html/handy/Handys_Iphones_13.html" class="btn_details">Mehr anzeigen</a>
+    </div>
+    <div class="best_seller">
+        <img src="html/images/headsets/Blue_Fire_1.jpg" style="width:100%">
+        <h2>Blue Fire</h2>
+        <h2>1499 Fr.-</h2>
+        <a href="html/handy/Handys_Iphones_13.html" class="btn_details">Mehr anzeigen</a>
+    </div>
+    <div class="best_seller">
+        <img src="html/images/tastaturen/WriteX_1.jpg" style="width:100%">
+        <h2>WriteX</h2>
+        <h2>1199 Fr.-</h2>
+        <a href="html/handy/Handys_Iphones_13.html" class="btn_details">Mehr anzeigen</a>
+    </div>
+</div>
+<h1 id="uberUnsTitel">Über uns</h1>
+<p id="uberUnsText"> Willkommen bei Mein Web-Shop! Wir bieten Ihnen die besten Produkte zu unschlagbaren Preisen. Unser Team ist stets bemüht, Ihnen den besten Service zu bieten. Kontaktieren Sie uns gerne bei Fragen.
+    <br>
+    Bei uns finden Sie eine breite Auswahl an hochwertigen Produkten, die sorgfältig ausgewählt wurden, um Ihren Bedürfnissen gerecht zu werden. Von den neuesten Gadgets und Elektronikartikeln bis hin zu praktischen Haushaltsgeräten und modischen Accessoires – wir haben alles, was Sie brauchen, um Ihren Alltag angenehmer zu gestalten.
+    <br>
+    Unser erfahrenes Team arbeitet kontinuierlich daran, unser Sortiment zu erweitern und die besten Angebote für Sie zu sichern. Wir legen großen Wert auf Kundenzufriedenheit und stehen Ihnen jederzeit für Fragen, Anregungen und Unterstützung zur Verfügung. Unser Kundenservice ist schnell und effizient, um sicherzustellen, dass Sie immer zufrieden sind.
+    <br>
+    Wir freuen uns darauf, Sie in unserem Web-Shop begrüßen zu dürfen und hoffen, dass Sie mit Ihrem Einkaufserlebnis bei uns rundum zufrieden sind. Vielen Dank, dass Sie uns Ihr Vertrauen schenken. Sollten Sie weitere Fragen haben oder spezielle Wünsche, zögern Sie bitte nicht, uns zu kontaktieren. Wir sind immer hier, um Ihnen zu helfen und sicherzustellen, dass Sie die bestmögliche Erfahrung mit unseren Produkten und Dienstleistungen haben.
+</p>
+<h1 id="Kontakt_Titel">Kontaktformular</h1>
+
+<div id="contact-form-container">
+    <form action="#" method="post" id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">E-Mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="subject">Betreff:</label>
+        <select id="subject" name="subject">
+            <option value="allgemeine_anfrage">Allgemeine Anfrage</option>
+            <option value="bestellung">Fragen zu Bestellung</option>
+            <option value="technischer_support">Technischer Support</option>
+            <option value="feedback">Feedback</option>
+        </select>
+
+        <label for="message">Nachricht:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit" class="btn_NoText">Absenden</button>
+    </form>
+</div>
+</body>
+</html>
